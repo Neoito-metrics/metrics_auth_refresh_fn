@@ -1,0 +1,13 @@
+{
+  "name": "metrics_auth_refresh_fn",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/Neoito-metrics/metrics_auth_refresh_fn",
+    "ssh": "git@github.com:Neoito-metrics/metrics_auth_refresh_fn.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
